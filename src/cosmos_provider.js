@@ -12,7 +12,7 @@ import ProviderRpcError from "./error";
 import { Buffer } from "buffer";
 import CosmJSOfflineSigner from "./cosmjs_adapter";
 
-export class TrustCosmosWeb3Provider extends BaseProvider {
+export class TimelessCosmosWeb3Provider extends BaseProvider {
   constructor(config) {
     super(config);
 
@@ -145,4 +145,4 @@ export class TrustCosmosWeb3Provider extends BaseProvider {
   }
 }
 
-module.exports = TrustCosmosWeb3Provider;
+module.exports = TimelessCosmosWeb3Provider;

@@ -3,17 +3,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "TrustWeb3Provider",
+    name: "TimelessWeb3Provider",
     products: [
         .library(
-            name: "TrustWeb3Provider",
-            targets: ["TrustWeb3Provider"]
+            name: "TimelessWeb3Provider",
+            targets: ["TimelessWeb3Provider"]
         )
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "TrustWeb3Provider",
+            name: "TimelessWeb3Provider",
             dependencies: [],
             path: "dist",
             resources: [

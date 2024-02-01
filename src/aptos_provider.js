@@ -9,7 +9,7 @@
 import BaseProvider from "./base_provider";
 import Utils from "./utils";
 
-class TrustAptosWeb3Provider extends BaseProvider {
+class TimelessAptosWeb3Provider extends BaseProvider {
   constructor(config) {
     super(config);
 
@@ -146,4 +146,4 @@ class TrustAptosWeb3Provider extends BaseProvider {
   }
 }
 
-module.exports = TrustAptosWeb3Provider;
+module.exports = TimelessAptosWeb3Provider;

@@ -14,7 +14,7 @@ import ProviderRpcError from "./error";
 
 const { PublicKey, Connection } = Web3;
 
-class TrustSolanaWeb3Provider extends BaseProvider {
+class TimelessSolanaWeb3Provider extends BaseProvider {
   constructor(config) {
     super(config);
 
@@ -183,4 +183,4 @@ class TrustSolanaWeb3Provider extends BaseProvider {
   }
 }
 
-module.exports = TrustSolanaWeb3Provider;
+module.exports = TimelessSolanaWeb3Provider;

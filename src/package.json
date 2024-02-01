@@ -1,7 +1,7 @@
 {
-  "name": "@trustwallet/web3-provider",
+  "name": "@timelesswallet/web3-provider",
   "version": "1.0.0",
-  "description": "Trust Web3 Provider",
+  "description": "Timeless Web3 Provider",
   "main": "dist/trust-min.js",
   "files": [
     "dist/trust-min.js"
@@ -11,7 +11,7 @@
     "url": "git+ssh://git@github.com/TrustWallet/trust-web3-provider.git"
   },
   "keywords": [],
-  "author": "Trust <support@trustwalletapp.com>",
+  "author": "Timeless <support@trustwalletapp.com>",
   "license": "MIT",
   "scripts": {
     "build": "npx browserify index.js -t [ babelify --presets [ @babel/preset-env ] ] | uglifyjs > ../dist/trust-min.js",
